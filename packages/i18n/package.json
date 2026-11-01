@@ -1,0 +1,28 @@
+{
+  "name": "@zahln/i18n",
+  "version": "0.0.0",
+  "private": true,
+  "description": "German and English translations, locale detection, money and date formatting.",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@zahln/domain": "*",
+    "i18next": "^26.5.11",
+    "react-i18next": "^17.1.9"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@zahln/eslint-config": "*",
+    "@zahln/tsconfig": "*"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ord_8a5f6c0f4573b58c",
+  "status": "open",
+  "mensa": {
+    "id": "mensa_campus",
+    "name": "Mensa am Campus"
+  },
+  "till": {
+    "id": "till_campus_1",
+    "name": "Kasse 1"
+  },
+  "items": [
+    {
+      "itemId": "item_campus_veggie",
+      "name": {
+        "de": "Tagesgericht vegetarisch",
+        "en": "Vegetarian dish of the day"
+      },
+      "quantity": 1,
+      "unitPrices": null,
+      "unitPriceCents": 250
+    },
+    {
+      "itemId": "item_campus_meat",
+      "name": {
+        "de": "Tagesgericht mit Fleisch",
+        "en": "Meat dish of the day"
+      },
+      "quantity": 2,
+      "unitPrices": null,
+      "unitPriceCents": 320
+    }
+  ],
+  "qrPayload": "zahln://pay?order=ord_8a5f6c0f4573b58c",
+  "currency": "EUR",
+  "amounts": null,
+  "priceGroup": "student",
+  "amountCents": 890,
+  "paymentId": null,
+  "createdAt": "2026-10-31T10:15:13.594Z",
+  "expiresAt": "2026-10-31T10:20:13.594Z",
+  "version": 1
+}

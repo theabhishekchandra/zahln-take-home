@@ -1,0 +1,18 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "tasks": {
+    "typecheck": {
+      "inputs": ["$TURBO_DEFAULT$", "../../tooling/tsconfig/**"]
+    },
+    "lint": {
+      "inputs": ["$TURBO_DEFAULT$", "../../tooling/eslint-config/**"]
+    },
+    "test": {
+      "outputs": ["coverage/**"]
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    }
+  }
+}

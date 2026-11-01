@@ -1,0 +1,13 @@
+{
+  "accessToken": "<redacted>",
+  "tokenType": "Bearer",
+  "expiresAt": "2026-10-31T10:19:45.481Z",
+  "user": {
+    "id": "usr_cashier_campus_1",
+    "displayName": "Mensa am Campus, Kasse 1",
+    "role": "cashier",
+    "priceGroup": null,
+    "tillId": "till_campus_1",
+    "mensaId": "mensa_campus"
+  }
+}

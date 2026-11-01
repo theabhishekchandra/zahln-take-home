@@ -1,0 +1,30 @@
+{
+  "name": "@zahln/adapters-native",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Native implementations of application ports (secure storage, biometrics, durable intent store, connectivity, hashing, timers).",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@zahln/domain": "*",
+    "@zahln/application": "*"
+  },
+  "peerDependencies": {
+    "expo-crypto": "*",
+    "expo-local-authentication": "*",
+    "expo-secure-store": "*",
+    "expo-sqlite": "*",
+    "expo-network": "*"
+  },
+  "devDependencies": {
+    "@zahln/eslint-config": "*",
+    "@zahln/tsconfig": "*"
+  }
+}

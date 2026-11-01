@@ -1,0 +1,20 @@
+{
+  "name": "@zahln/ui-tokens",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Design tokens shared by native and web (from the Zahln design handoff), plus the Manrope font files (SIL OFL 1.1, assets/fonts/OFL.txt).",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./fonts/*": "./assets/fonts/*"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@zahln/eslint-config": "*",
+    "@zahln/tsconfig": "*"
+  }
+}

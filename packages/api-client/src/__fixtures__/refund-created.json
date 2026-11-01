@@ -1,0 +1,10 @@
+{
+  "id": "ref_c19354a65700d083",
+  "paymentId": "pay_c1ade39eb04b0ad5",
+  "amountCents": 100,
+  "currency": "EUR",
+  "status": "pending",
+  "reason": "wrong_dish",
+  "createdAt": "2026-10-31T10:33:16.483Z",
+  "updatedAt": "2026-10-31T10:33:16.483Z"
+}

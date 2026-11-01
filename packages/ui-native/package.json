@@ -1,0 +1,32 @@
+{
+  "name": "@zahln/ui-native",
+  "version": "0.0.0",
+  "private": true,
+  "description": "React Native components from the Zahln design handoff, with accessibility built in, for the student app and till.",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@zahln/domain": "*",
+    "@zahln/i18n": "*",
+    "@zahln/ui-tokens": "*",
+    "qrcode": "^1.5.4"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-svg": "*"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.6",
+    "@zahln/eslint-config": "*",
+    "@zahln/tsconfig": "*"
+  }
+}

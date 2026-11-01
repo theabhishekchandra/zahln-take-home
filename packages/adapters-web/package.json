@@ -1,0 +1,22 @@
+{
+  "name": "@zahln/adapters-web",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Browser implementations of application ports for the dashboard.",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@zahln/application": "*"
+  },
+  "devDependencies": {
+    "@zahln/eslint-config": "*",
+    "@zahln/tsconfig": "*"
+  }
+}

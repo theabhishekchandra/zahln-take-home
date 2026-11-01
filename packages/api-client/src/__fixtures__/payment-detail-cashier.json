@@ -1,0 +1,77 @@
+{
+  "id": "pay_c1ade39eb04b0ad5",
+  "orderId": "ord_5a14003cb42d3cb8",
+  "status": "confirmed",
+  "amountCents": 250,
+  "currency": "EUR",
+  "priceGroup": "student",
+  "mensa": {
+    "id": "mensa_campus",
+    "name": "Mensa am Campus"
+  },
+  "till": {
+    "id": "till_campus_1",
+    "name": "Kasse 1"
+  },
+  "payer": {
+    "id": "usr_student",
+    "displayName": "Test Student"
+  },
+  "items": [
+    {
+      "itemId": "item_campus_veggie",
+      "name": {
+        "de": "Tagesgericht vegetarisch",
+        "en": "Vegetarian dish of the day"
+      },
+      "quantity": 1,
+      "unitPriceCents": 250
+    }
+  ],
+  "refundedAmountCents": 100,
+  "pendingRefundAmountCents": 0,
+  "refundableAmountCents": 150,
+  "needsAttention": false,
+  "attentionReasons": [],
+  "createdAt": "2026-10-31T10:33:04.449Z",
+  "updatedAt": "2026-10-31T10:33:18.413Z",
+  "version": 4,
+  "refunds": [
+    {
+      "id": "ref_c19354a65700d083",
+      "paymentId": "pay_c1ade39eb04b0ad5",
+      "amountCents": 100,
+      "currency": "EUR",
+      "status": "completed",
+      "reason": "wrong_dish",
+      "createdAt": "2026-10-31T10:33:16.483Z",
+      "updatedAt": "2026-10-31T10:33:18.413Z"
+    }
+  ],
+  "history": [
+    {
+      "at": "2026-10-31T10:33:04.449Z",
+      "type": "payment_created",
+      "amountCents": 250,
+      "refundId": null
+    },
+    {
+      "at": "2026-10-31T10:33:07.259Z",
+      "type": "payment_confirmed",
+      "amountCents": 250,
+      "refundId": null
+    },
+    {
+      "at": "2026-10-31T10:33:16.483Z",
+      "type": "refund_requested",
+      "amountCents": 100,
+      "refundId": "ref_c19354a65700d083"
+    },
+    {
+      "at": "2026-10-31T10:33:18.413Z",
+      "type": "refund_completed",
+      "amountCents": 100,
+      "refundId": "ref_c19354a65700d083"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": 409,
+  "body": {
+    "code": "refund_exceeds_payment",
+    "title": "The refund exceeds what is left of the payment.",
+    "status": 409,
+    "retryable": false,
+    "detail": "150 cents can still be refunded."
+  }
+}

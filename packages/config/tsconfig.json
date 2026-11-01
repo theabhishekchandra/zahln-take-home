@@ -1,0 +1,6 @@
+{
+  "extends": "@zahln/tsconfig/base.json",
+  "include": ["src"],
+  // Production code gets no runtime types: timers, storage and I/O must come in through ports.
+  "exclude": ["src/**/*.test.ts"]
+}

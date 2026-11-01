@@ -1,0 +1,9 @@
+{
+  "status": 409,
+  "body": {
+    "code": "order_payment_in_progress",
+    "title": "A payment for this order is being checked.",
+    "status": 409,
+    "retryable": true
+  }
+}

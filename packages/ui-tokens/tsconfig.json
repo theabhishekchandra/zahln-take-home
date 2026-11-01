@@ -1,0 +1,6 @@
+{
+  "extends": "@zahln/tsconfig/base.json",
+  "include": [
+    "src"
+  ]
+}

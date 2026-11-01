@@ -1,0 +1,18 @@
+{
+  "name": "@zahln/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./layers": "./layers.js"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.39.0",
+    "globals": "^17.13.0",
+    "typescript-eslint": "^8.72.1"
+  },
+  "peerDependencies": {
+    "eslint": "^9"
+  }
+}
